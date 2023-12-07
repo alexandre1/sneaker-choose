@@ -31,7 +31,7 @@ public class EmailService {
     private void sendMail() {
 
     	final String username = "alexjaquet@gmail.com";
-        final String password = "bxwpypgecjwvvthp";
+        final String password = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
 
         Properties props = new Properties();
         props.put("mail.smtp.host", "smtp.gmail.com");
