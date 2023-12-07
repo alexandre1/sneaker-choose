@@ -1,0 +1,15 @@
+runtime: java
+env: flex
+resources:
+  memory_gb: 4
+automatic_scaling:
+  min_num_instances: 1
+  max_num_instances: 7
+skip_files:
+  - ^(.*/)?.*/node_modules/.*$
+spring:
+  http:
+    multipart:
+      enabled: true
+      max-file-size: 50MB
+      max-request-size: 50MB
