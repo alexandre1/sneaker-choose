@@ -28,7 +28,7 @@ replay_pid*
 # IDEA
 .idea/
 *.iml
-
+,metadata
 # MacOS
 .DS_Store
 
