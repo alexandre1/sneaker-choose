@@ -38,7 +38,7 @@ public class MailWithAttachmentService {
 
     public Session getSession() {
     	final String username = "alexjaquet@gmail.com";
-        final String password = "bxwpypgecjwvvthp";
+        final String password = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
 
         Properties props = new Properties();
         props.put("mail.smtp.host", "smtp.gmail.com");  
