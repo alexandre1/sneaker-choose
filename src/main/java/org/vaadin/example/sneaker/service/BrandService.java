@@ -5,7 +5,7 @@ import java.util.Set;
 import java.util.logging.Logger;
 
 import org.springframework.stereotype.Service;
-import org.vaadin.example.Brand;
+import org.vaadin.example.entity.Brand;
 import org.vaadin.example.repository.BrandRepository;
 
 @Service

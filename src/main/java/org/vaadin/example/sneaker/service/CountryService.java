@@ -1,13 +1,10 @@
 package org.vaadin.example.sneaker.service;
 
 import java.util.List;
-import java.util.logging.Level;
 import java.util.logging.Logger;
 
 import org.springframework.stereotype.Service;
-import org.vaadin.example.Address;
-import org.vaadin.example.Country;
-import org.vaadin.example.repository.AdressRepository;
+import org.vaadin.example.entity.Country;
 import org.vaadin.example.repository.CountryRepository;
 
 @Service

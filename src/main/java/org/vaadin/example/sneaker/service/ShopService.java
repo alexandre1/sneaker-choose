@@ -4,15 +4,11 @@ import java.util.List;
 import java.util.Set;
 import java.util.logging.Logger;
 
-import org.springframework.data.jpa.repository.Modifying;
-import org.springframework.data.jpa.repository.Query;
-import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
-import org.vaadin.example.Address;
-import org.vaadin.example.Person;
-import org.vaadin.example.Shoe;
-import org.vaadin.example.Shop;
+import org.vaadin.example.entity.Address;
+import org.vaadin.example.entity.Person;
+import org.vaadin.example.entity.Shoe;
+import org.vaadin.example.entity.Shop;
 import org.vaadin.example.repository.ShopRepository;
 
 @Service

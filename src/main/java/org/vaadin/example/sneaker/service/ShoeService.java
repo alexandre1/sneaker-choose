@@ -6,11 +6,10 @@ import java.util.logging.Logger;
 
 import javax.transaction.Transactional;
 
-import org.springframework.data.mapping.AccessOptions.SetOptions.Propagation;
 import org.springframework.stereotype.Service;
-import org.vaadin.example.Person;
-import org.vaadin.example.Shoe;
-import org.vaadin.example.Shop;
+import org.vaadin.example.entity.Person;
+import org.vaadin.example.entity.Shoe;
+import org.vaadin.example.entity.Shop;
 import org.vaadin.example.repository.ShoeRepository;
 
 @Service

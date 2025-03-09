@@ -5,7 +5,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 import org.springframework.stereotype.Service;
-import org.vaadin.example.Person;
+import org.vaadin.example.entity.Person;
 import org.vaadin.example.repository.PersonRepository;
 
 @Service

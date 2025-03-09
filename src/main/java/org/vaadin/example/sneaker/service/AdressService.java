@@ -5,7 +5,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 import org.springframework.stereotype.Service;
-import org.vaadin.example.Address;
+import org.vaadin.example.entity.Address;
 import org.vaadin.example.repository.AdressRepository;
 
 @Service

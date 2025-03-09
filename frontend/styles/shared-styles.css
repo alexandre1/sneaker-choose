@@ -20,7 +20,7 @@
   background-color: white;
 }
 .background-image2{
-  background-image: url(icons/logo.png);
+  background-image: url("icons/logo.png");
   background-repeat: no-repeat;
   background-position:top;
   background-color: white;

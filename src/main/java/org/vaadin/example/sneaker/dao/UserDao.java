@@ -1,6 +1,6 @@
 package org.vaadin.example.sneaker.dao;
 
-import org.vaadin.example.Person;
+import org.vaadin.example.entity.Person;
 
 public class UserDao {
 	
