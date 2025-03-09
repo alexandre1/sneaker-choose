@@ -29,7 +29,7 @@ public class    MailWithAttachmentService {
     private String host = "";
     private String port = "";
 
-    MailWithAttachmentService() {
+    public MailWithAttachmentService() {
     }
 
     MailWithAttachmentService(String username, String password, String host, String port) {
